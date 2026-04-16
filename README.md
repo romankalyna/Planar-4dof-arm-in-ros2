@@ -3,6 +3,8 @@
 Simulation and PID control of a planar 4-DOF serial robot arm in Python with ROS2 Humble and Python 3.10.  
 Includes full dynamics, gravity compensation, forward/inverse kinematics, data logging, and RViz visualization via URDF.
 
+**Full-research analysis can be found in `paper.pdf`.**
+
 > This repository contains a complete ROS2 Python project for simulating, controlling, and analyzing a planar 4-DOF (R-R-R-R) robotic arm operating in the XZ plane.
 
 
