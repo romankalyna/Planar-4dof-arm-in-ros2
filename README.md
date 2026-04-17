@@ -16,6 +16,17 @@ Includes full dynamics, gravity compensation, forward/inverse kinematics, data l
 - **Inverse and forward kinematics (IK/FK) in Python**
 - **All code and nodes run in ROS2 Humble with Python 3.10**
 
+## Videos
+Gravity and Damping (No Control):
+The only forces acting on the arm are gravity and damping. This setup demonstrates how the robot naturally responds to these physical effects, eventually settling due to damping.
+
+https://github.com/user-attachments/assets/033a4c56-cf07-48be-9d06-fb962381be94
+
+A PID controller with gravity compensation:
+Implemented to guide the robot to a specified destination (x,z,theta). Robot adjusts its joints velocities, overcoming gravity and damping, to accurately reach and stabilize at the requested target position.
+
+https://github.com/user-attachments/assets/c5cb6d4a-097e-4568-926e-5decec3c5dc1
+
 
 ## Tested On
 
